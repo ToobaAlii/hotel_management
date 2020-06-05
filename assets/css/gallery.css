@@ -1,0 +1,284 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+nav ul{
+	margin-top:22px;
+}
+nav{
+	height:90px;
+}
+:root {
+	
+	--black: #000;
+	--red: #aa0f15;
+	--white: #fff;
+	--font-size: 30px;
+	--font-family: arial,sans-serif;
+	--h-font-size: 44px;
+	--border: 1px solid #fff;
+}
+/* tuba css */
+.logo{
+	text-align: center;
+	
+}
+
+.logo span {
+	font-size: 42px;
+	color: var(--white);	
+	font-family: charm;
+	height:0px;
+}
+.logo p{
+	color: var(--white);
+	font-family: charm;
+	font-size: 20px;
+	letter-spacing: 3px;
+	line-height: 0;
+	padding-bottom: 15px;
+	
+	
+}
+.container_gallery{
+	padding-top:100px;
+	background:black;
+}
+.wrap{
+	display:flex;
+	justify-content:space-around;
+}
+nav > ul > li{
+	list-style-type:none;
+	display:inline-block;	
+	position:relative;
+	width:160px;
+}
+.wrap{
+	background:var(--red);
+}
+nav ul li a{
+	text-decoration:none;
+	display:block;
+	padding:10px;                                         
+	color:var(--white);
+	font-family: var(--h-font-family);
+	width: 170px;
+    padding-left: 41px;
+}
+
+nav ul li ul{
+	list-style-type:none;
+	position:absolute;
+	height:0px;
+	overflow:hidden;
+	transition: 1s ease-in-out;
+	background-color:var(--red);
+	z-index: 1;
+}
+
+nav ul li:hover ul, nav ul li a:hover ul{
+	height:120px;
+}
+
+
+/*sabra start*/
+
+.container #fancy .box
+{
+	height: auto;
+    background-image: url(images/background_3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+	
+	
+	
+	
+}
+/*
+.background h1 
+{
+	font-family: var(--font-family);
+	text-align: center;
+    font-size: var(--h-font-size);
+    color: var(--white);
+    position: relative;
+    top: 44%;
+}
+
+.background p 
+{
+	font-family: var(--font-family);
+	font-size: var(--font-size);
+    color: var(--white);
+    position: relative;
+    top: 32%;
+    text-align: center;
+
+}
+*/
+a{
+	align-items: center;
+    margin: 0px 0px 0px 46px;
+}
+/*
+.container #fancy
+{
+	background-image: url(images/background_3.jpeg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+	
+	
+
+}
+*/
+#fancy {
+	display: flex;
+	flex-wrap: wrap;
+} 
+/*
+#fancy h1,h2,h3 {
+	font-size: var(--h-font-size);
+	font-family: var(--font-family);
+	color: var(--white);
+}
+*/
+.box img
+{
+	
+	height: 220px;
+	width: 270px;
+	transition: 1s;
+	margin: 7px; 
+	
+}
+.box img:hover
+{
+	
+	transform: scale(1.1);
+}
+/*sabra end*/
+/*sobia start*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+	margin:0;
+	padding:0;
+}
+
+h1,h2,h3,h3,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+	background:var(--black);
+	height:300px;
+	margin-top:30px !important;
+	clear: both;
+	border-top:1px solid white;
+}
+
+footer .container {
+	max-width:1247px;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	margin-top:100px;
+}
+footer h2{
+	color:var(--white);
+}
+footer p{
+	color:var(--white);
+}
+footer .col-01 {
+	max-width:25%;
+	width:100%;
+	float:left;
+}
+footer .col-02 {
+	max-width:25%;
+	width:100%;
+	float:left;
+}
+
+footer ul li{
+	list-style: none;
+}
+footer ul li a{
+	color:var(--white);
+	text-decoration:none;
+	text-transform: uppercase;
+	font-family: var(--p-font-family);
+	margin-bottom:5px;
+	
+}
+
+footer .col-03 {
+	max-width:25%;
+	width:100%;
+	float:left;
+}
+footer .col-03 ul {
+	padding-left:0;
+}
+
+
+footer .col-03 ul li {
+	display: inline-block;
+	font-size:var(--p-font-size);
+	margin-right:5px;
+	
+}
+footer .col-03 ul li i {
+	font-size:25px;
+}
+footer .col-04 form {
+	margin-top:10px;
+}
+footer .col-04{
+	text-align: center;
+	
+}
+
+footer form input[type="text"], footer form input[type="email"] {
+    height: 52px;
+    color: var(--black);    
+    resize: none;
+    border: none;   
+    font-family: var(--h-font-family);
+    font-size: 16px;
+    transition: 1s;
+	border-radius: 50px;
+	width:18%;
+	margin: 0 auto;
+}
+footer input[type="submit"]{
+	 padding: 10px;
+	 background: var(--red);
+	 color: var(--white);	 
+	 border-radius: 50px;
+	 padding: 10px;
+	 border: 0px;
+}
+footer ul li:hover a{
+	color:var(--red);
+	transition: 1s ease-in-out;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 21px;
+
+}
+
+.calendar-section {
+display: none;
+}
+
+	

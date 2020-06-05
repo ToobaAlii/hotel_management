@@ -1,0 +1,12 @@
+:root{
+	--black: #000;
+	--red: #aa0f15;
+	--white: #fff;	
+	--logo-color: linear-gradient(left, #0950bd, #21c8be, #0aaf8b);
+	--p-font-size: 16px;
+	--p-font-family: 'Open Sans', sans-serif;
+	--h-font-family: 'Montserrat', sans-serif;
+	--h-fsize: 42px;
+	
+	
+}
